@@ -27,7 +27,7 @@ export default function create() {
         setEmail('')
         setTelefone('')
         setMensagem('')
-        read()
+        window.location.reload()
       })
   }
 
